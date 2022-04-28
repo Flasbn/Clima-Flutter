@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-ThemData darkTheme() {
+ThemeData darkTheme() {
   return ThemeData(
       brightness: Brightness.dark,
-      scaffoldBackgroundColor: Colors.grey[800],
+      scaffoldBackgroundColor: Colors.grey[700],
       appBarTheme: AppBarTheme(color: Colors.blueGrey[700]),
       textTheme: const TextTheme(
           headline3: TextStyle(fontSize: 23, fontWeight: FontWeight.w200),

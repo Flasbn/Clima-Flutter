@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-ThemData lightTheme() {
+ThemeData lightTheme() {
   return ThemeData(
       brightness: Brightness.light,
       scaffoldBackgroundColor: Colors.white,
